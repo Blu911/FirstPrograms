@@ -1,4 +1,4 @@
 package newProjects;
 
-public class Main1 {
+public class ostatnie {
 }
