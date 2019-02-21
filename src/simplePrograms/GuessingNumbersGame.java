@@ -1,9 +1,9 @@
-package newProjects;
+package simplePrograms;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class graWZgadywanieLiczb {
+public class GuessingNumbersGame {
     public static void main(String[] args) {
         drawGame();
     }
@@ -33,7 +33,7 @@ public class graWZgadywanieLiczb {
         }
     }
 
-    static int isNumber () {
+    static int isNumber() {
         Scanner scanner = new Scanner(System.in);
         while (!scanner.hasNextInt()) {
             System.out.println("Nieprawidłowa wartość, podaj liczbę: ");
